@@ -31,7 +31,7 @@ export default function NavBar() {
                     <ul className="headerLogin">
                         <form class="searchBox" action="https://www.google.com/search" method="get">
                             <input id="search" type="text" placeholder="SEARCH" />
-                            <button type="submit" value="search" a href="#">
+                            <button type="search" value="search">
                                 <BiSearchAlt2 />
                             </button>
                         </form>
