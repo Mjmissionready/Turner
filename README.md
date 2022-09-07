@@ -2,7 +2,8 @@
 
 <div id="header" align="center">
  <img src=https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/57124896>
- ![](https://img.shields.io/github/downloads/{mymissionready}/{Turner}/total.svg)(https://img.shields.io/github/issues-pr/{username}/{repo-name}.svg)(https://badge-size.herokuapp.com/{mjmissionready}/{Turners})
+ <br>
+ ![](https://img.shields.io/github/downloads/{Mymissionready}/{Turner}/total.svg) ![](https://img.shields.io/github/issues-pr/{Mjmissionready}/{Tuners}.svg) ![](https://badge-size.herokuapp.com/{Mjmissionready}/{Turners})
 </div>
 
 ---
@@ -11,13 +12,13 @@
   hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
 
-PLEASE ![](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg) ANYTING
+PLEASE ![Ask Me](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg) ANYTING
 
 
   
-[![My Skills](https://skills.thijs.gg/icons?i=js,html,css,py,nodejs,react,mysql,figma,&theme=light)]
+![My Skills](https://skills.thijs.gg/icons?i=js,html,css,py,nodejs,react,mysql,figma,&theme=light)
 
 
-![](https://github-readme-stats.vercel.app/api?username={mjmissionready}&theme=blue-green)
+![Rank](https://github-readme-stats.vercel.app/api?username={Mjmissionready}&theme=blue-green)
  
-![](https://github-readme-stats.vercel.app/api/top-langs/?username={mjmissionready}&theme=blue-green)
+![Status](https://github-readme-stats.vercel.app/api/top-langs/?username={Mjmissionready}&theme=blue-green)
