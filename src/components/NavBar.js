@@ -51,7 +51,7 @@ export default function NavBar() {
                 </ul>
             </nav>
 
-            <a href="#" className="nav__toggleBtn">
+            <a href="/" className="nav__toggleBtn">
                 <FaToggleOn />
             </a>
         </>

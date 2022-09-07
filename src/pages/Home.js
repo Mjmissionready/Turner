@@ -1,5 +1,6 @@
 import * as React from "react";
 import styled from "styled-components";
+import Desktop10 from "../components/desktop10";
 
 const Container = styled.div`
  display: flex;
@@ -13,12 +14,7 @@ const Container = styled.div`
 export default function Home() {
     return (
         <Container>
-            <h1> MISSION5
-            </h1>
-            <h1> MISSION5
-            </h1>
-            <h1> MISSION5
-            </h1>
+            <Desktop10 />
         </Container>
     );
 }
