@@ -2,7 +2,7 @@ import * as React from "react";
 import "./NavBar.css";
 import logo from "./TurnersCars.png";
 import styled from "styled-components";
-import { BiSearchAlt2 } from "react-icons/bi";
+import { BiSearchAlt } from "react-icons/bi";
 import { ImLocation } from "react-icons/im";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaToggleOn } from "react-icons/fa";
@@ -15,8 +15,8 @@ export default function NavBar() {
     return (
         <>
             <div className="topHeader">
-                <li> <BsFillTelephoneFill /> 0800 887 637</li>
-                <li> <ImLocation /> Find Us</li>
+                <li> <BsFillTelephoneFill size={"10px"} style={{ marginRight: "4px" }} /> 0800 887 637</li>
+                <li> <ImLocation size={"11px"} style={{ marginRight: "3px" }} /> Find Us</li>
             </div>
 
             <Container>
@@ -32,7 +32,7 @@ export default function NavBar() {
                         <form className="searchBox" action="https://www.google.com/search" method="get">
                             <input id="search" type="text" placeholder="SEARCH" />
                             <button type="search" value="search">
-                                <BiSearchAlt2 />
+                                <BiSearchAlt />
                             </button>
                         </form>
 

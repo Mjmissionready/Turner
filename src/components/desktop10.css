@@ -11,8 +11,13 @@
 }
 
 .success {
+  text-align: center;
   font-size: 35px;
   font-weight: 800;
+}
+
+.success hr {
+ width: 200px;
 }
 
 .detail {
