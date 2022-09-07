@@ -28,8 +28,8 @@ export default function NavBar() {
                     </div>
 
 
-                    <ul className="headerLogin">
-                        <form class="searchBox" action="https://www.google.com/search" method="get">
+                    <div className="headerLogin">
+                        <form className="searchBox" action="https://www.google.com/search" method="get">
                             <input id="search" type="text" placeholder="SEARCH" />
                             <button type="search" value="search">
                                 <BiSearchAlt2 />
@@ -38,17 +38,17 @@ export default function NavBar() {
 
                         <li style={{ marginRight: "20px" }}> MY ACCOUNT</li>
                         <li> REGISTER </li>
-                    </ul>
+                    </div>
                 </div>
             </Container>
 
             <nav className="navbar">
-                <ul className="nav__menu">
+                <div className="nav__menu">
                     <li><a href="/">Find a Car</a></li>
                     <li><a href="/">Buy / Sell a Car </a></li>
                     <li><a href="/">Finance & Insurance</a></li>
                     <li><a href="/">Turners Subscription</a></li>
-                </ul>
+                </div>
             </nav>
 
             <a href="/" className="nav__toggleBtn">
