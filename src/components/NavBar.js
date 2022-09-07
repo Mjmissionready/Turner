@@ -5,6 +5,7 @@ import styled from "styled-components";
 import { BiSearchAlt2 } from "react-icons/bi";
 import { ImLocation } from "react-icons/im";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import { FaToggleOn } from "react-icons/fa";
 
 const Container = styled.div`
     margin: 20px 50px;
@@ -47,10 +48,6 @@ export default function NavBar() {
                         <li style={{ marginRight: "20px" }}> MY ACCOUNT</li>
                         <li> REGISTER </li>
                     </ul>
-
-                    <a href="/" class="nav__toggleBtn">
-                        <i class="fa-solid fa-bars"></i>
-                    </a>
                 </div>
             </Container>
 
@@ -62,6 +59,10 @@ export default function NavBar() {
                     <li><a href="/">Turners Subscription</a></li>
                 </ul>
             </nav>
+
+            <a href="#" className="nav__toggleBtn">
+                <FaToggleOn />
+            </a>
         </>
     );
 }

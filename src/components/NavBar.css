@@ -177,8 +177,7 @@
 
 .nav__toggleBtn {
   position: absolute;
-  right: 32px;
-  font-size: 22px;
+  right: 40px;
   display: none;
   color: var(--nav-text);
 }
@@ -220,10 +219,6 @@
   }
 
   .column {
-    width: 100%;
-  }
-
-  .box-container {
     width: 100%;
   }
 }
