@@ -2,17 +2,29 @@ import * as React from "react";
 import "./NavBar.css";
 import logo from "./TurnersCars.png";
 import styled from "styled-components";
+import { BiSearchAlt2 } from "react-icons/bi";
+import { ImLocation } from "react-icons/im";
+import { BsFillTelephoneFill } from "react-icons/bs";
 
 const Container = styled.div`
     margin: 20px 50px;
 `;
 
+const toggleBtn = document.querySelector('.nav__toggleBtn');
+const menu = document.querySelector('.nav__menu');
+const icons = document.querySelector('.nav__icons');
+
+toggleBtn.addEventListener('click', () => {
+    menu.classList.toggle('active');
+    icons.classList.toggle('active');
+});
+
 export default function NavBar() {
     return (
         <>
             <div className="topHeader">
-                <li> 0800 887 637</li>
-                <li> Find Us</li>
+                <li> <BsFillTelephoneFill /> 0800 887 637</li>
+                <li> <ImLocation /> Find Us</li>
             </div>
 
             <Container>
@@ -25,9 +37,20 @@ export default function NavBar() {
 
 
                     <ul className="headerLogin">
+                        <form class="searchBox" action="https://www.google.com/search" method="get">
+                            <input id="search" type="text" placeholder="SEARCH" />
+                            <button type="submit" value="search" a href="#">
+                                <BiSearchAlt2 />
+                            </button>
+                        </form>
+
                         <li style={{ marginRight: "20px" }}> MY ACCOUNT</li>
                         <li> REGISTER </li>
                     </ul>
+
+                    <a href="/" class="nav__toggleBtn">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
                 </div>
             </Container>
 
