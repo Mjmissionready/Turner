@@ -1,16 +1,15 @@
 
 
 <div id="header" align="center">
- <img src=https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/57124896>
- <br>
- <br>
- <h1>
+  <h1>
   Hey, Welcome to my Github <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-</h1>
+</h1> <br/> <br/>
+ 
+ <img src=https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/57124896>
+
  <h2> I'm future Full Stack Developer </h2>
 </div>
 
----
 
 ###  Hi There! 😄
 
