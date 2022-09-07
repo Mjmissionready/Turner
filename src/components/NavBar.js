@@ -48,6 +48,10 @@ export default function NavBar() {
                         <li style={{ marginRight: "20px" }}> MY ACCOUNT</li>
                         <li> REGISTER </li>
                     </ul>
+
+                    <a href="/" class="nav__toggleBtn">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
                 </div>
             </Container>
 

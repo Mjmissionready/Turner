@@ -26,6 +26,7 @@
 .topHeader li {
   margin: 0 20px;
   font-size: 12px;
+  list-style: none;
 }
 
 .header {
@@ -46,12 +47,61 @@
   width: auto;
 }
 
+.searchBox {
+  display: flex;
+  margin: auto 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border-radius: 6px;
+  flex-direction: row;
+  box-sizing: border-box;
+  height: 26px;
+  background: rgba(222, 235, 252, 0.397);
+  border: 2px ridge var(--navbar);
+  border-radius: 6px;
+  align-items: center;
+  /* backdrop-filter: blur(4px) saturate(180%); */
+}
+
+.searchBox input {
+  display: inline-block;
+  background: transparent;
+  /* flex: 1; */
+  border: 0;
+  outline: none;
+  padding-left: 10px;
+  font-size: 10px;
+  color: var(--text);
+}
+
+.searchBox:hover {
+  border: 1px ridge rgba(136, 136, 136, 0.4);
+  text-shadow: 1px 1px 2px black, 0px 0px 5px #000000;
+  box-shadow: 0px 0px 17px #707594;
+}
+
+::placeholder {
+  color: rgb(136, 136, 136);
+}
+
+.searchBox button {
+  border: 0;
+  /* border-radius: 50%; */
+  width: 35px;
+  height: 35px;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+
 .headerLogin {
   list-style: none;
   display: flex;
+  align-items: center;
   color: var(--text);
-  font-size: 14px;
+  font-size: 10px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .headerLogin a {
@@ -61,13 +111,20 @@
 }
 
 .headerLogin li {
-  padding: 10px 16px;
-  border: 1px solid var(--navbar);
-  border-radius: 10px;
+  display: flex;
+  padding: 4px 8px;
+  background: rgba(197, 218, 245, 0.733);
+  border: 2px solid var(--navbar);
+  border-radius: 6px;
   box-shadow: 0.2px 0.2px 2px rgba(255, 255, 255, 0.651),
-    2px 2px 4px rgba(110, 110, 110, 0.651);
-  letter-spacing: 1px;
+  2px 2px 4px rgba(110, 110, 110, 0.651);
+  /* letter-spacing: 1px; */
 }
+
+.headerLogin li:hover {
+  background-color: #bedcf5;
+}
+
 
 /*  navbar   */
 .navbar {
@@ -115,11 +172,17 @@
   box-shadow: 0.2px 0.2px 2px rgba(255, 255, 255, 0.651),
     2px 2px 4px rgba(110, 110, 110, 0.651);
   padding: 7px 31px;
+  cursor: pointer;
 }
 
-.headerLogin li:hover {
-  background-color: #bedcf5;
+.nav__toggleBtn {
+  position: absolute;
+  right: 32px;
+  font-size: 22px;
+  display: none;
+  color: var(--nav-text);
 }
+
 
 .nav__menu.active,
 .headerLogin.active {
@@ -150,6 +213,10 @@
     display: none;
     justify-content: center;
     width: 100%;
+  }
+
+  .nav__toggleBtn {
+    display: block;
   }
 
   .column {
