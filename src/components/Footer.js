@@ -25,18 +25,18 @@ export default function Footer() {
 
                     {/* Column1 */}
                     <div className="col">
-                        <ui className="footerList">
+                        <div className="footerList">
                             <h2>ACCOUNT</h2>
                             <p>My Account</p>
                             <p>Membership</p>
                             <p>Payment options</p>
                             <p>Help centre</p>
-                        </ui>
+                        </div>
                     </div>
 
                     {/* Column2 */}
                     <div className="col">
-                        <ui className="footerList">
+                        <div className="footerList">
                             <h2>COMPANY</h2>
                             <p>About us </p>
                             <p>Why insure with us?</p>
@@ -44,12 +44,12 @@ export default function Footer() {
                             <p>Contact us</p>
                             <p>Covid-19</p>
                             <p>FAQ</p>
-                        </ui>
+                        </div>
                     </div>
 
                     {/* Column3 */}
                     <div className="col">
-                        <ui className="footerList">
+                        <div className="footerList">
                             <h2>LEGAL</h2>
                             <p>Terms & Conditions</p>
                             <p>Report insurance fraud</p>
@@ -59,19 +59,19 @@ export default function Footer() {
                             <p>Policy documents</p>
                             <p>Make a complaint</p>
                             <p>Send us a compliment</p>
-                        </ui>
+                        </div>
                     </div>
 
                     {/* Column4 */}
                     <div className="col">
-                        <ui className="footerList">
+                        <div className="footerList">
                             <h2>SUPPORT</h2>
                             <p>Insurance calculator</p>
                             <p>Further assistance</p>
                             <p>Glossary</p>
                             <p>Blog</p>
                             <p>Send us compliments</p>
-                        </ui>
+                        </div>
                     </div>
                 </div>
 
