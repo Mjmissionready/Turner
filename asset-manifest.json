@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Turner/static/css/main.153eada8.css",
+    "main.js": "/Turner/static/js/main.e6495a23.js",
+    "static/js/787.4e3266b4.chunk.js": "/Turner/static/js/787.4e3266b4.chunk.js",
+    "static/media/TurnersCars.png": "/Turner/static/media/TurnersCars.bcd6de1bcf37e23af018.png",
+    "index.html": "/Turner/index.html",
+    "main.153eada8.css.map": "/Turner/static/css/main.153eada8.css.map",
+    "main.e6495a23.js.map": "/Turner/static/js/main.e6495a23.js.map",
+    "787.4e3266b4.chunk.js.map": "/Turner/static/js/787.4e3266b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.153eada8.css",
+    "static/js/main.e6495a23.js"
+  ]
+}
