@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/Turner/static/css/main.da80640f.css",
-    "main.js": "/Turner/static/js/main.26605b95.js",
-    "static/js/787.4e3266b4.chunk.js": "/Turner/static/js/787.4e3266b4.chunk.js",
+    "main.css": "/Turner/static/css/main.78292e15.css",
+    "main.js": "/Turner/static/js/main.865ca773.js",
     "static/media/TurnersCars.png": "/Turner/static/media/TurnersCars.bcd6de1bcf37e23af018.png",
     "index.html": "/Turner/index.html",
-    "main.da80640f.css.map": "/Turner/static/css/main.da80640f.css.map",
-    "main.26605b95.js.map": "/Turner/static/js/main.26605b95.js.map",
-    "787.4e3266b4.chunk.js.map": "/Turner/static/js/787.4e3266b4.chunk.js.map"
+    "main.78292e15.css.map": "/Turner/static/css/main.78292e15.css.map",
+    "main.865ca773.js.map": "/Turner/static/js/main.865ca773.js.map"
   },
   "entrypoints": [
-    "static/css/main.da80640f.css",
-    "static/js/main.26605b95.js"
+    "static/css/main.78292e15.css",
+    "static/js/main.865ca773.js"
   ]
 }
