@@ -39,4 +39,4 @@
 
 
 
-![download](https://img.shields.io/github/downloads/Mymissionready/Turner/total.svg) ![Ask Me](https://img.shields.io/github/issues-pr/Mjmissionready/Turner.svg) ![Ask Me](https://badge-size.herokuapp.com/Mjmissionready/Turner) ![Ask Me](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
+![download](https://img.shields.io/github/downloads/Mymissionready/Turner/total.svg) ![pull](https://img.shields.io/github/issues-pr/Mjmissionready/Turner.svg) ![size](https://badge-size.herokuapp.com/Mjmissionready/Turner.svg) ![Ask Me](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
