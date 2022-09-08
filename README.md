@@ -8,18 +8,18 @@
  <img src=https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/57124896>
   <br /> <br />
 <h2> I'm future Full Stack Developer </h2>
-    <br /> <br />
 </div>
-
 
 ###  Hi There! 😄
 
 
 - 🌸 I'm graphic designer & video editor
+- 
 - 🌱 I'm currently studying Full stack developer course in Missionready
+- 
 - 🛠️ Languages & Tools
 
-
+<br />
 ![My Skills](https://skills.thijs.gg/icons?i=js,html,css,py,nodejs,react,mysql,figma,&theme=light)
   
   
@@ -39,4 +39,4 @@
 
 
 
-![download](https://img.shields.io/github/downloads/Mymissionready/Turner/total.svg) ![pull](https://img.shields.io/github/issues-pr/Mjmissionready/Turner.svg) ![size](https://badge-size.herokuapp.com/Mjmissionready/Turner.svg) ![Ask Me](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
+![download](https://img.shields.io/github/downloads/Mjmissionready/Turner/total.svg) ![pull](https://img.shields.io/github/issues-pr/Mjmissionready/Turner.svg) ![size](https://badge-size.herokuapp.com/Mjmissionready/Turner.svg) ![Ask Me](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
