@@ -1,5 +1,6 @@
 import * as React from "react";
 import "./desktop10.css";
+import Chat from "./Chat.png";
 // import styled from "styled-components";
 
 // const Container = styled.div`
@@ -36,6 +37,13 @@ export default function Desktop10() {
                 <div className="point">
                     Manage or view account
                 </div>
+            </div>
+
+            <div className="rtnHome">
+                <button className="rtnBtn">
+                    Return to Home
+                </button>
+                <img src={Chat} alt="chatbot"/>
             </div>
         </>
     );

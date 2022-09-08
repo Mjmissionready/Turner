@@ -17,7 +17,7 @@
 }
 
 .success hr {
- width: 200px;
+  width: 200px;
 }
 
 .detail {
@@ -28,15 +28,15 @@
 }
 
 .detail span {
-    font-size: 18px;
-    font-weight: 800;
+  font-size: 18px;
+  font-weight: 800;
 }
 
 .amount {
   font-weight: bold;
   font-size: 50px;
   font-weight: 800;
-  padding: 10px; 
+  padding: 10px;
 }
 
 .point {
@@ -52,4 +52,27 @@
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 1px;
+}
+
+.rtnHome {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.rtnBtn {
+  width: 200px;
+  background-color: #7faddf;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin: 50px 0;
+}
+
+.rtnHome img {
+  height: 42px;
+  margin: 50px 0 0 50px;
 }

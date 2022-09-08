@@ -32,7 +32,7 @@ export default function NavBar() {
                         <form className="searchBox" action="https://www.google.com/search" method="get">
                             <input id="search" type="text" placeholder="SEARCH" />
                             <button type="search" value="search">
-                                <BiSearchAlt />
+                                <BiSearchAlt size={"15px"}/>
                             </button>
                         </form>
 
@@ -45,9 +45,9 @@ export default function NavBar() {
             <nav className="navbar">
                 <div className="nav__menu">
                     <li><a href="/">Find a Car</a></li>
-                    <li><a href="/">Buy / Sell a Car </a></li>
-                    <li><a href="/">Finance & Insurance</a></li>
-                    <li><a href="/">Turners Subscription</a></li>
+                    <li><a href="/buySell">Buy / Sell a Car </a></li>
+                    <li><a href="/FnI">Finance & Insurance</a></li>
+                    <li><a href="/Sub">Turners Subscription</a></li>
                 </div>
             </nav>
 
