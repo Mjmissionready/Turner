@@ -22,7 +22,7 @@
 ![My Skills](https://skills.thijs.gg/icons?i=js,html,css,py,nodejs,react,mysql,figma,&theme=light)
   
   
-- 💬 PLEASE ![Ask Me](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg) ANYTING
+- 💬 PLEASE  ANYTING
 
 
 
@@ -31,12 +31,13 @@
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mjmissionready&theme=blue-green" />
 
-
-
-<img src="https://img.shields.io/github/downloads/Mymissionready/Turner/total.svg" /> <img src="https://img.shields.io/github/issues-pr/Mjmissionready/Tuners.svg" /> <img src="https://badge-size.herokuapp.com/Mjmissionready/Turner" />  
+---
 
 
 ✨Today's Joke!!
 
 ![Jokes Card](https://readme-jokes.vercel.app/api)
 
+
+
+![download](https://img.shields.io/github/downloads/Mymissionready/Turner/total.svg) ![Ask Me](https://img.shields.io/github/issues-pr/Mjmissionready/Tuners.svg) ![Ask Me](https://badge-size.herokuapp.com/Mjmissionready/Turner) ![Ask Me](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
