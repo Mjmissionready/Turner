@@ -43,7 +43,7 @@ export default function Desktop10() {
                 <button className="rtnBtn">
                     Return to Home
                 </button>
-                <img src={Chat} alt="chatbot" style={{ cursor: "pointer" }} />
+                <img src={Chat} alt="chatbot" />
             </div>
         </>
     );
